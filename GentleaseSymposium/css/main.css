@@ -12,20 +12,16 @@ License URI:  | http://www.gnu.org/licenses/gpl-2.0.html
 body { margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif;font-size: 12px; line-height: 18px;}
 a { cursor: pointer;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 a,img { border: 0;outline-width:0;}
-
 #wrapper { width: 1024px; height: 768px; margin: 0 auto; overflow: hidden;position: relative; background: url('images/mainbackground.jpg') center center}
 .slide { width: 1024px; height: 768px; margin: 0 auto; overflow: hidden;position: absolute; left: 0;top: 0; display:none}
 
 /*MENU*/
-.lunch { display: block;width: 192px; height: 192px; position: absolute;left: 161px; top: 237px; background: url('images/lunch.png');-moz-transition: 0.7s;-webkit-transition: 0.7s; transition: 0.7s }
-.dinner { display: block;width: 179px; height: 192px; position: absolute;left:635px; top: 237px; background: url('images/dinner.png');-moz-transition: 0.7s;-webkit-transition: 0.7s;transition: 0.7s }
-
+.lunch { display: block;width: 192px; height: 192px; position: absolute;left: 161px; top: 237px; background: url('images/lunch.png');-moz-transition: 0.6s;-webkit-transition: 0.6s; transition: 0.6s}
+.dinner { display: block;width: 179px; height: 192px; position: absolute;left:635px; top: 237px; background: url('images/dinner.png');-moz-transition: 0.6s;-webkit-transition: 0.6s;transition: 0.6s}
 .lunch.selected { left:410px;}
 .dinner.selected { left:410px;}
-
 .lunch.unselected { top:-200px; }
 .dinner.unselected { top:-200px;}
-
 .homeBtn { width: 30px;height: 30px; background: url('images/home.png');position: absolute;left: 20px;top: 20px;overflow: hidden;display: none;z-index: 13;background-size: cover}
 
 /*SLIDE*/
@@ -35,9 +31,6 @@ a,img { border: 0;outline-width:0;}
 #s2 .s2Btn { display: block;width:295px; height: 291px;position: absolute;left: 349px;top: 211px;background: url('images/s2.png') }
 #s2 .s2Txt { display: block; width: 688px; height: 0; background: url('images/s2-text.png') center top; position: absolute;left:173px; bottom:156px; }
 #s3 {background: url('images/s3.jpg');z-index: 10}
-
-
-
 
 #s3Btn { display: block;width:290px; height: 290px;position: absolute;left: 363px;top:320px; display: block;background: transparent;border-radius: 290px }
 #s4 {background: url('images/s4.jpg');z-index: 9}
@@ -52,49 +45,6 @@ a,img { border: 0;outline-width:0;}
 
 #s9 {background: url('images/s9.jpg');z-index: 4}
 #s10 {background: url('images/s10.jpg');z-index: 3}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
