@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+$(document).ready(function() {
 	document.body.addEventListener('touchmove', function(e) {
 	  // This prevents native scrolling from happening.
 	  e.preventDefault();
@@ -28,7 +28,7 @@
 		$('.toslide2').click(function() {
 			$('#s1').fadeOut(300,function() {
 				$('#s2').fadeIn();
-				$('.defpos').click(function() {
+				/*$('.defpos').click(function() {*/
 					$('#s2Btn').animate({top: '70px'}).removeClass('defpos').addClass('upPos');
 					$('.s2Txt').animate({height: '202px'},function() {
 						$('.upPos').click(function() {
@@ -37,7 +37,8 @@
 									$('#s3Btn').click(function() {
 										$('#s3').fadeOut(300,function() {
 											$('#s4').fadeIn(300,function() {
-												$(this).click(function() {
+												$('#s4').click(function() {
+													$(this).fadeOut();
 													$('#s5').fadeIn(300);
 												});
 											});
@@ -47,7 +48,7 @@
 							});
 						});
 					});
-				});
+				/*});*/
 			});
 		});
 		$('.homeBtn').fadeIn();
@@ -59,7 +60,7 @@
 		$('.toslide2').click(function() {
 			$('#s1').fadeOut(300,function() {
 				$('#s2').fadeIn();
-				$('.defpos').click(function() {
+				/*$('.defpos').click(function() {*/
 					$('#s2Btn').animate({top: '70px'}).removeClass('defpos').addClass('upPos');
 					$('.s2Txt').animate({height: '202px'},function() {
 						$('.upPos').click(function() {
@@ -141,7 +142,7 @@
 							});
 						});
 					});
-				});
+				/*});*/
 			});
 		});
 
